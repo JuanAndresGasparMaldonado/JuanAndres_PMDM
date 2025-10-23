@@ -23,7 +23,7 @@ class PantallaActividad8 extends StatelessWidget {
               ),
               const SizedBox(height: 8), // Espacio pequeño debajo de la imagen
               const Text(
-                'Texto Imagen 1',   // Texto simple
+                'Imagen tenista 1 arriba',   // Texto simple
                 textAlign: TextAlign.center, // Centrado
                 style: TextStyle(fontSize: 14), // Tamaño de letra
               ),
@@ -44,7 +44,7 @@ class PantallaActividad8 extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'Texto Imagen 2',
+                          'Imagen tenista 2 medio izquierda',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14),
                         ),
@@ -64,7 +64,7 @@ class PantallaActividad8 extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'Texto Imagen 3',
+                          'Imagen tenista 3 medio derecha',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14),
                         ),
@@ -89,7 +89,7 @@ class PantallaActividad8 extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'Texto Imagen 4',
+                          'Imagen tenista 4 abajo izquierda',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14),
                         ),
@@ -109,7 +109,7 @@ class PantallaActividad8 extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'Texto Imagen 5',
+                          'Imagen tenista 5 abajo centro',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14),
                         ),
@@ -129,7 +129,7 @@ class PantallaActividad8 extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'Texto Imagen 6',
+                          'Imagen tenista 6 abajo derecha',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14),
                         ),

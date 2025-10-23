@@ -9,7 +9,6 @@ class PantallaTextos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-
         // Este texto tiene la fuente por defecto y desborda horizontalmente
         Expanded(
           child: Container(

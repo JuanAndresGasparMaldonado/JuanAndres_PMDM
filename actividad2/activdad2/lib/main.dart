@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<String> _titles = [
     'Actividad 6: Textos',
     'Actividad 7: Disposición de Imágenes',
-    // ***** NUEVO: Añadimos el título para la Actividad 8 *****
+    // NUEVO: Añadimos el título para la Actividad 8
     'Actividad 8: Responsive',
   ];
 
