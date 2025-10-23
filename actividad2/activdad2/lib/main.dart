@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 // Importamos las pantallas que usaremos
 import 'screens/pantalla_textos.dart';
 import 'screens/pantalla_disposicion.dart';
-// NUEVO: Importamos la pantalla de la Actividad 8
 import 'screens/pantalla_actividad8.dart';
+import 'screens/pantalla_actividad9.dart';
 
 // El punto de entrada principal de la aplicación
 void main() {
@@ -50,16 +50,16 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _screens = [
     const PantallaTextos(),       // Índice 0 (Actividad 6)
     const PantallaDisposicion(), // Índice 1 (Actividad 7)
-    // NUEVO: Añadimos la pantalla de la Actividad 8 
     const PantallaActividad8(),  // Índice 2 (Actividad 8)
+    const PantallaActividad9(),  // Índice 3 (Actividad 9)
   ];
 
   // Lista de títulos para la AppBar, correspondientes a cada pantalla
   final List<String> _titles = [
     'Actividad 6: Textos',
     'Actividad 7: Disposición de Imágenes',
-    // NUEVO: Añadimos el título para la Actividad 8
     'Actividad 8: Responsive',
+    'Actividad 9: Helipuerto',
   ];
 
   @override
@@ -115,6 +115,16 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () {
                 // Cuando se toca esta opción:
                 setState(() => _selectedIndex = 2); // Cambia el índice seleccionado a 2
+                Navigator.pop(context); // Cierra el Drawer
+              },
+            ),
+
+            ListTile(
+              leading: const Icon(Icons.phonelink_setup), // Icono para responsive
+              title: const Text('Actividad 9: Helipuerto'), // Texto
+              onTap: () {
+                // Cuando se toca esta opción:
+                setState(() => _selectedIndex = 3); // Cambia el índice seleccionado a 2
                 Navigator.pop(context); // Cierra el Drawer
               },
             ),
